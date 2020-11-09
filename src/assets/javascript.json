@@ -1,0 +1,98 @@
+{
+    "id": 1,
+    "quizName": "Javascript Quiz",
+    "quizDescription": "Basic Javascript quiz to evaluate your knowledge of fundamental concepts.",
+    "questions": [
+        {
+        "questionId": 1100,
+        "content": "Which HTML tag do we use to put Javascript in?",
+        "options": [
+            {
+                "optionId": 1101,
+                "questionId": 1100,
+                "content": "<javascript>",
+                "isCorrect": false
+            },
+            {
+                "optionId": 1102,
+                "questionId": 1100,
+                "content": "<script>",
+                "isCorrect": true
+            },
+            {
+                "optionId": 1103,
+                "questionId": 1100,
+                "content": "<js>",
+                "isCorrect": false
+            },
+            {
+                "optionId": 1104,
+                
+                "questionId": 1100,
+                "content": "None of the above",
+                "isCorrect": false
+            }
+        ]
+        },
+        {
+        "questionId": 1200,
+        "content": "Which HTML tag do we use to put Javascript in?222",
+        "options": [
+            {
+                "optionId": 1201,
+                "questionId": 1100,
+                "content": "<javascript>",
+                "isCorrect": false
+            },
+            {
+                "optionId": 1202,
+                "questionId": 1100,
+                "content": "<script>",
+                "isCorrect": true
+            },
+            {
+                "optionId": 1203,
+                "questionId": 1100,
+                "content": "<js>",
+                "isCorrect": false
+            },
+            {
+                "optionId": 1204,
+                "questionId": 1100,
+                "content": "None of the above",
+                "isCorrect": false
+            }
+        ]
+        },
+        {
+        "questionId": 1300,
+        "content": "Which HTML tag do we use to put Javascript in?333",
+        "options": [
+            {
+                "optionId": 1301,
+                "questionId": 1100,
+                "content": "<javascript>",
+                "isCorrect": false
+            },
+            {
+                "optionId": 1302,
+                "questionId": 1100,
+                "content": "<script>",
+                "isCorrect": true
+            },
+            {
+                "optionId": 1303,
+                "questionId": 1100,
+                "content": "<js>",
+                "isCorrect": false
+            },
+            {
+                "optionId": 1304,
+                "questionId": 1100,
+                "content": "None of the above",
+                "isCorrect": false
+            }
+        ]
+        }
+    ]
+}

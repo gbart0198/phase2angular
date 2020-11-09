@@ -1,0 +1,36 @@
+<div class="jumbotron">
+    <div class="row mb-2 header-row">
+        <div class="col-7 center-content">
+            <h2>Angular Quiz Application</h2>
+        </div>
+        <div class="col-4 select-quiz">
+            Select Quiz:
+            <select [(ngModel)]="quizName" name="quizType" id="quizType" (change)="onChange()">
+                <option selected value="assets/javascript.json">Javascript</option>
+                <option value="Angular">Angular</option>
+                <option value="assets/java.json">Java</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-lg-12 center-content quiz-info" *ngIf="quizSelected && currQuiz">
+            <p id="quiz-title">{{currQuiz.quizName}}</p>
+            <hr>
+            <p id="quiz-desc">{{currQuiz.quizDescription}}</p>
+            <p id="num-questions">{{quizQuestions}} Questions</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 center-content">
+            <span [hidden]="!quizSelected"><button class="btn btn-dark" (click)="startQuiz()">Start Quiz</button></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <span class="quiz-selection" [hidden]="!invalid">
+            Please Select a Quiz
+        </span>
+    </div>
+</div>
+

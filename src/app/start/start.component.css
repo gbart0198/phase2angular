@@ -1,0 +1,41 @@
+.select-quiz {
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-row {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quiz-selection {
+    color: red;
+    font-style: italic;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.quiz-info {
+    margin-top: 10px;
+    padding-left: 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+#quiz-title {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#quiz-desc {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#num-questions {
+    font-weight: bold;
+    font-size: 12px;
+}

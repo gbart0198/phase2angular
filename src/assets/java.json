@@ -1,0 +1,101 @@
+{
+    "id": 2,
+    "quizName": "Java Quiz",
+    "quizDescription": "Basic Java quiz to evaluate your knowledge of fundamental concepts.",
+    "questions": [
+        {
+        "questionId": 2100,
+        "content": "Which of the following option leads to the portability and security of Java?",
+        "options": [
+            {
+                "optionId": 2101,
+                "questionId": 2100,
+                "content": "Bytecode is executed by JVM",
+                "isCorrect": true
+            },
+            {
+                "optionId": 2102,
+                "questionId": 2100,
+                "content": "The applet makes the Java code secure and portable",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2103,
+                "questionId": 2100,
+                "content": "Use of exception handling",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2104,
+                
+                "questionId": 2100,
+                "content": "Dynamic binding between objects",
+                "isCorrect": false
+            }
+        ]
+        },
+        
+        {
+        "questionId": 2200,
+        "content": "Which of the following is not a Java features?",
+        "options": [
+            {
+                "optionId": 2201,
+                "questionId": 2200,
+                "content": "Dynamic",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2202,
+                "questionId": 2200,
+                "content": "Architecture Neutral",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2203,
+                "questionId": 2200,
+                "content": "Use of pointers",
+                "isCorrect": true
+            },
+            {
+                "optionId": 2204,
+                
+                "questionId": 2200,
+                "content": "Object-oriented",
+                "isCorrect": false
+            }
+        ]
+        },
+
+        {
+        "questionId": 2300,
+        "content": "_____ is used to find and fix bugs in the Java programs.",
+        "options": [
+            {
+                "optionId": 2301,
+                "questionId": 2300,
+                "content": "JVM",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2302,
+                "questionId": 2300,
+                "content": "JRE",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2303,
+                "questionId": 2300,
+                "content": "JDK",
+                "isCorrect": true
+            },
+            {
+                "optionId": 2304,
+                "questionId": 2300,
+                "content": "JDB",
+                "isCorrect": false
+            }
+        ]
+        }
+    ]
+}
