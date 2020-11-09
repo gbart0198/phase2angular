@@ -1,0 +1,13 @@
+.center-content {
+    text-align: center;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#percent {
+    color: green;
+}
+

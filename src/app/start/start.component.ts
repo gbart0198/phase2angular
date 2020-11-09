@@ -40,6 +40,7 @@ export class StartComponent implements OnInit {
       this.currQuiz = new Quiz(data);
       this.quizSelected = true;
       this.invalid=false;
+      this.quizQuestions = this.currQuiz.questions.length;
     })
   }
 
@@ -52,6 +53,10 @@ export class StartComponent implements OnInit {
       }
       case ('assets/java.json'): {
         quizNum = 2;
+        break;
+      }
+      case ('assets/python.json'): {
+        quizNum = 3;
         break;
       }
     }

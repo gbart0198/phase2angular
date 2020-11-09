@@ -1,0 +1,20 @@
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-lg-12 center-content">
+            <h4>Congratulations on finishing the {{quizName}}!</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 center-content">
+            <p id="score">Your score was: <span id="percent">{{percent}}%</span></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 center-content">
+            <button type="button" class="btn btn-dark" (click)="restart()">Try Again</button>
+        </div>
+        <div class="col-lg-6 center-content">
+            <button type="button" class="btn btn-dark" (click)="mainMenu()">Return To Quizzes</button>
+        </div>
+    </div>
+</div>

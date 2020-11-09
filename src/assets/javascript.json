@@ -36,63 +36,153 @@
         },
         {
         "questionId": 1200,
-        "content": "Which HTML tag do we use to put Javascript in?222",
+        "content": "Which type of JavaScript language is ___",
         "options": [
             {
                 "optionId": 1201,
-                "questionId": 1100,
-                "content": "<javascript>",
+                "questionId": 1200,
+                "content": "Object-Oriented",
                 "isCorrect": false
             },
             {
                 "optionId": 1202,
-                "questionId": 1100,
-                "content": "<script>",
+                "questionId": 1200,
+                "content": "Object-Based",
                 "isCorrect": true
             },
             {
                 "optionId": 1203,
-                "questionId": 1100,
-                "content": "<js>",
+                "questionId": 1200,
+                "content": "Assembly-language",
                 "isCorrect": false
             },
             {
                 "optionId": 1204,
-                "questionId": 1100,
-                "content": "None of the above",
+                "questionId": 1200,
+                "content": "High-level",
                 "isCorrect": false
             }
         ]
         },
         {
         "questionId": 1300,
-        "content": "Which HTML tag do we use to put Javascript in?333",
+        "content": "Which one of the following also known as Conditional Expression:",
         "options": [
             {
                 "optionId": 1301,
-                "questionId": 1100,
-                "content": "<javascript>",
+                "questionId": 1300,
+                "content": "Alternative to if-else",
                 "isCorrect": false
             },
             {
                 "optionId": 1302,
-                "questionId": 1100,
-                "content": "<script>",
-                "isCorrect": true
+                "questionId": 1300,
+                "content": "Switch statement",
+                "isCorrect": false
             },
             {
                 "optionId": 1303,
-                "questionId": 1100,
-                "content": "<js>",
+                "questionId": 1300,
+                "content": "If-then-else statement",
                 "isCorrect": false
             },
             {
                 "optionId": 1304,
-                "questionId": 1100,
-                "content": "None of the above",
-                "isCorrect": false
+                "questionId": 1300,
+                "content": "immediate if",
+                "isCorrect": true
             }
         ]
-        }
+        },
+        {
+            "questionId": 1400,
+            "content": "The 'function' and 'var' are known as:",
+            "options": [
+                {
+                    "optionId": 1401,
+                    "questionId": 1400,
+                    "content": "Keywords",
+                    "isCorrect": false
+                },
+                {
+                    "optionId": 1402,
+                    "questionId": 1400,
+                    "content": "Data types",
+                    "isCorrect": false
+                },
+                {
+                    "optionId": 1403,
+                    "questionId": 1400,
+                    "content": "Declaration statements",
+                    "isCorrect": true
+                },
+                {
+                    "optionId": 1404,
+                    "questionId": 1400,
+                    "content": "Prototypes",
+                    "isCorrect": false
+                }
+            ]
+            },
+            {
+                "questionId": 1500,
+                "content": "Which of the following variables takes precedence over the others if the names are the same?",
+                "options": [
+                    {
+                        "optionId": 1501,
+                        "questionId": 1500,
+                        "content": "Global variable",
+                        "isCorrect": false
+                    },
+                    {
+                        "optionId": 1502,
+                        "questionId": 1500,
+                        "content": "The local element",
+                        "isCorrect": true
+                    },
+                    {
+                        "optionId": 1503,
+                        "questionId": 1500,
+                        "content": "The two of the above",
+                        "isCorrect": false
+                    },
+                    {
+                        "optionId": 1504,
+                        "questionId": 1500,
+                        "content": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+                },
+                {
+                    "questionId": 1600,
+                    "content": "Which one of the following is the correct way for calling the JavaScript code?",
+                    "options": [
+                        {
+                            "optionId": 1601,
+                            "questionId": 1600,
+                            "content": "Preprocessor",
+                            "isCorrect": false
+                        },
+                        {
+                            "optionId": 1602,
+                            "questionId": 1600,
+                            "content": "Triggering Event",
+                            "isCorrect": false
+                        },
+                        {
+                            "optionId": 1603,
+                            "questionId": 1600,
+                            "content": "RMI",
+                            "isCorrect": false
+                        },
+                        {
+                            "optionId": 1604,
+                            "questionId": 1600,
+                            "content": "Function/Method",
+                            "isCorrect": true
+                        }
+                    ]
+                    }
     ]
 }

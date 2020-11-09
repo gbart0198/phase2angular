@@ -15,7 +15,7 @@
                 <div class="quizInfo col-lg-12 center-content">
                     <div class="row">
                         <div class="col-lg-6">Question {{currQuestionNum + 1}} of {{quizQuestions}}</div>
-                        <div class="col-lg-6" *ngIf="currQuestionNum>=1">Score: {{correctAnswers}} / {{currQuestionNum}} ({{100*(correctAnswers/currQuestionNum)}})%</div>
+                        <div class="col-lg-6" *ngIf="currQuestionNum>=1">Score: {{correctAnswers}} / {{currQuestionNum}} ({{100*(correctAnswers/currQuestionNum)}}%)</div>
                     </div>
                 </div>
                 <div class="question">
@@ -40,14 +40,14 @@
             </div>
             <ng-template #elseBlock>
                 <div class="incorrectOutput">
-                    Incorrect!
+                    Incorrect! Correct answer is {{correctAnswer}}
                 </div>
             </ng-template>
         </div>
     </span>
     <div class="row">
         <div class="col-lg-1" *ngIf="currQuestionNum<quizQuestions">
-            <button type="button" class="btn btn-dark" (click)="goNext()">Next</button>
+            <button type="button" class="btn btn-dark" (click)="goNext()" [disabled]="!answered">Next</button>
         </div>
         <div class="col-lg-4">
             <button type="button" class="btn btn-dark" (click)="return()">Return To Quizzes</button>

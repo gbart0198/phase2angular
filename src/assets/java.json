@@ -96,6 +96,99 @@
                 "isCorrect": false
             }
         ]
-        }
+        },
+
+        {
+        "questionId": 2400,
+        "content": "Which of the following is a valid long literal?",
+        "options": [
+            {
+                "optionId": 2401,
+                "questionId": 2400,
+                "content": "ABH8097",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2402,
+                "questionId": 2400,
+                "content": "L990023",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2403,
+                "questionId": 2400,
+                "content": "904423",
+                "isCorrect": false
+            },
+            {
+                "optionId": 2404,
+                "questionId": 2400,
+                "content": "0xnf029L",
+                "isCorrect": true
+            }
+        ]
+        },
+
+        {
+            "questionId": 2500,
+            "content": "Which of the following for loop declaration is not valid?",
+            "options": [
+                {
+                    "optionId": 2501,
+                    "questionId": 2500,
+                    "content": "for ( int i = 99; i >= 0; i / 9 )",
+                    "isCorrect": true
+                },
+                {
+                    "optionId": 2502,
+                    "questionId": 2500,
+                    "content": "for ( int i = 7; i <= 77; i += 7 )",
+                    "isCorrect": false
+                },
+                {
+                    "optionId": 2503,
+                    "questionId": 2500,
+                    "content": "for ( int i = 20; i >= 2; - -i )",
+                    "isCorrect": false
+                },
+                {
+                    "optionId": 2504,
+                    "questionId": 2500,
+                    "content": "for ( int i = 2; i <= 20; i = 2* i )",
+                    "isCorrect": false
+                }
+            ]
+            },
+
+            {
+                "questionId": 2600,
+                "content": "In which process, a local variable has the same name as one of the instance variables?",
+                "options": [
+                    {
+                        "optionId": 2601,
+                        "questionId": 2600,
+                        "content": "Serialization",
+                        "isCorrect": false
+                    },
+                    {
+                        "optionId": 2602,
+                        "questionId": 2600,
+                        "content": "Variable Shadowing",
+                        "isCorrect": true
+                    },
+                    {
+                        "optionId": 2603,
+                        "questionId": 2600,
+                        "content": "Abstraction",
+                        "isCorrect": false
+                    },
+                    {
+                        "optionId": 2604,
+                        "questionId": 2600,
+                        "content": "Multi-threading",
+                        "isCorrect": false
+                    }
+                ]
+                }
     ]
 }

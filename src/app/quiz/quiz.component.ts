@@ -19,6 +19,7 @@ export class QuizComponent implements OnInit {
 
   allQuizzes: any[];
   correctAnswers = 0;
+  correctAnswer: string;
   currQuiz: Quiz = new Quiz(null);
   currQuestionNum: number;
   currQuestion: Question = new Question(null);
@@ -41,8 +42,13 @@ export class QuizComponent implements OnInit {
         this.quizRoute = 'assets/java.json';
         break;
       }
+      case "3": {
+        this.quizRoute = 'assets/python.json';
+        break;
+      }
     }
     this.createQuiz(this.quizRoute);
+    
   }
 
   createQuiz(name: string) {
@@ -52,6 +58,12 @@ export class QuizComponent implements OnInit {
       console.log(this.currQuestion.options);
       this.currQuestionNum = 0;
       this.quizQuestions = this.currQuiz.questions.length;
+      for (let op of this.currQuestion.options) {
+        if (op.isCorrect) {
+          this.correctAnswer = op.content;
+          console.log(this.correctAnswer)
+        }
+      } 
     })
   }
 
@@ -61,7 +73,20 @@ export class QuizComponent implements OnInit {
       this.correctAnswers++;
     }
     this.currQuestionNum++;
-    this.currQuestion = this.currQuiz.questions[this.currQuestionNum];
+    if (this.currQuestionNum < this.quizQuestions) {
+      this.currQuestion = this.currQuiz.questions[this.currQuestionNum];
+      for (let op of this.currQuestion.options) {
+        if (op.isCorrect) {
+          this.correctAnswer = op.content;
+          console.log(this.correctAnswer)
+        }
+      }
+    } else {
+      let path = "/result/";
+      path += this.quizNum + '/';
+      path += this.correctAnswers;
+      this.router.navigateByUrl(path);
+    }
   }
 
   onSelection() {

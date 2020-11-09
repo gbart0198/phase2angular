@@ -1,0 +1,194 @@
+{
+    "id": 3,
+    "quizName": "Python Quiz",
+    "quizDescription": "Basic Python quiz to evaluate your knowledge of fundamental concepts.",
+    "questions": [
+        {
+        "questionId": 3100,
+        "content": "Which keyword is use for function?",
+        "options": [
+            {
+                "optionId": 3101,
+                "questionId": 3100,
+                "content": "define",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3102,
+                "questionId": 3100,
+                "content": "fun",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3103,
+                "questionId": 3100,
+                "content": "def",
+                "isCorrect": true
+            },
+            {
+                "optionId": 3104,
+                
+                "questionId": 3100,
+                "content": "function",
+                "isCorrect": false
+            }
+        ]
+        },
+        
+        {
+        "questionId": 3200,
+        "content": "Which of the following items are present in the function header?",
+        "options": [
+            {
+                "optionId": 3201,
+                "questionId": 3200,
+                "content": "function name",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3202,
+                "questionId": 3200,
+                "content": "parameter list",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3203,
+                "questionId": 3200,
+                "content": "return value",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3204,
+                
+                "questionId": 3200,
+                "content": "Both A and B",
+                "isCorrect": true
+            }
+        ]
+        },
+
+        {
+        "questionId": 3300,
+        "content": "What is called when a function is defined inside a class?",
+        "options": [
+            {
+                "optionId": 3301,
+                "questionId": 3300,
+                "content": "class",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3302,
+                "questionId": 3300,
+                "content": "function",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3303,
+                "questionId": 3300,
+                "content": "method",
+                "isCorrect": true
+            },
+            {
+                "optionId": 3304,
+                "questionId": 3300,
+                "content": "module",
+                "isCorrect": false
+            }
+        ]
+        },
+
+        {
+        "questionId": 3400,
+        "content": "If return statement is not used inside the function, the function will return:",
+        "options": [
+            {
+                "optionId": 3401,
+                "questionId": 3400,
+                "content": "None",
+                "isCorrect": true
+            },
+            {
+                "optionId": 3402,
+                "questionId": 3400,
+                "content": "0",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3403,
+                "questionId": 3400,
+                "content": "Null",
+                "isCorrect": false
+            },
+            {
+                "optionId": 3404,
+                "questionId": 3400,
+                "content": "Arbitrary Value",
+                "isCorrect": false
+            }
+        ]
+        },
+
+        {
+            "questionId": 3500,
+            "content": "What is a recursive function?",
+            "options": [
+                {
+                    "optionId": 3501,
+                    "questionId": 3500,
+                    "content": "A function that calls other function.",
+                    "isCorrect": false
+                },
+                {
+                    "optionId": 3502,
+                    "questionId": 3500,
+                    "content": "A function which calls itself.",
+                    "isCorrect": true
+                },
+                {
+                    "optionId": 3503,
+                    "questionId": 3500,
+                    "content": "Both A and B",
+                    "isCorrect": false
+                },
+                {
+                    "optionId": 3504,
+                    "questionId": 3500,
+                    "content": "None of the above",
+                    "isCorrect": false
+                }
+            ]
+            },
+
+            {
+                "questionId": 3600,
+                "content": "Which of the following is the use of id() function in python?",
+                "options": [
+                    {
+                        "optionId": 3601,
+                        "questionId": 3600,
+                        "content": "Id() returns the size of object.",
+                        "isCorrect": false
+                    },
+                    {
+                        "optionId": 3602,
+                        "questionId": 3600,
+                        "content": "Id() returns the identity of the object.",
+                        "isCorrect": true
+                    },
+                    {
+                        "optionId": 3603,
+                        "questionId": 3600,
+                        "content": "Both A and B",
+                        "isCorrect": false
+                    },
+                    {
+                        "optionId": 3604,
+                        "questionId": 3600,
+                        "content": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+                }
+    ]
+}

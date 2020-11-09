@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { StartComponent } from './start/start.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { FormsModule } from '@angular/forms';
+import { ResultComponent } from './result/result.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartComponent,
-    QuizComponent
+    QuizComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
